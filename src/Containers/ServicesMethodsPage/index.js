@@ -57,7 +57,7 @@ class ServicesMethods extends React.Component {
                         <Text body="Why we do it" className="processMainHead"/>
                         <Text body="We solve branded challenges in co-creation with our clients as good and fast as possible." className="processMainText"/>
                     </div>
-                    <Image file="yura---desktop-1920px-gettyimages-554391989.png" className="processMainImage"/>
+                    <Image file="servicesImage.png" className="processMainImage"/>
                 </div>
 
                 <div className="processDetails">
@@ -69,9 +69,8 @@ class ServicesMethods extends React.Component {
                             <Text body="We have a clear process: in 5 distinct phases we’re taking your product from beginning to end. Combining strategic and technical experience with a fierce focus on design, we are capable to bring any idea to life." className="processDetailsText"/>
                         </div>
                         <div className="col-md-3">
-
                         </div>
-                        <div className="col-md-9">
+                        <div className="col-md-7">
                             <div className="processItem">
                                 <Image file="yura---sm-1920px-investigate.svg" className="processItemIcon"/>
                                 <div className="processData">
