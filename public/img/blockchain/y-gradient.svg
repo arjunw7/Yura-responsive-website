@@ -1,0 +1,15 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<svg width="728px" height="954px" viewBox="0 0 728 954" version="1.1" xmlns="http://www.w3.org/2000/svg" xmlns:xlink="http://www.w3.org/1999/xlink">
+    <!-- Generator: Sketch 55.2 (78181) - https://sketchapp.com -->
+    <title>y-gradient</title>
+    <desc>Created with Sketch.</desc>
+    <defs>
+        <linearGradient x1="20.8837115%" y1="0%" x2="79.4467383%" y2="99.581511%" id="linearGradient-1">
+            <stop stop-color="#0034DA" offset="0%"></stop>
+            <stop stop-color="#DB00FF" offset="100%"></stop>
+        </linearGradient>
+    </defs>
+    <g id="y-gradient" stroke="none" stroke-width="1" fill="none" fill-rule="evenodd">
+        <polygon fill="url(#linearGradient-1)" points="551.96504 0 373.809177 438.440927 176.565186 0 0 0 430.01311 954 608.168973 954 467.128915 646.605992 728 0"></polygon>
+    </g>
+</svg>

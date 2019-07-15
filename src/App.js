@@ -12,6 +12,7 @@ import CaseDetails1 from './Containers/CaseDetailsPage1';
 import CaseDetails2 from './Containers/CaseDetailsPage2';
 import CaseDetails3 from './Containers/CaseDetailsPage3';
 import CaseDetails4 from './Containers/CaseDetailsPage4';
+import Blockchain from './Containers/BlockchainPage';
 
 class App extends Component {
   render() {
@@ -30,6 +31,7 @@ class App extends Component {
             <Route exact path="/2" component={CaseDetails2} />
             <Route exact path="/3" component={CaseDetails3} />
             <Route exact path="/4" component={CaseDetails4} />
+            <Route exact path="/blockchain" component={Blockchain} />
             <Route component={NotFound} />
           </Switch>
         </div>

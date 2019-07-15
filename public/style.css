@@ -1212,6 +1212,134 @@ input {
     transition: all 0.2s
 }
 
+.blockChainInfo {
+    font-family: "Apercu-Light", Helvetica, Arial, serif;
+    background-image: url('img/yura---desktop-1920px-gradientbackground.png');
+    background-size: cover;
+    color: white;
+}
+
+.blockchainHead {
+    padding-top: 4rem
+}
+
+.blockchainHeadBox {
+    position: absolute;
+    top: 9.5rem;
+    width: 35%;
+    color: white;
+    margin-left: 50%;
+    background-color: rgba(0, 53, 218, 0.5);
+    padding: 6rem 3rem 2rem 3rem
+}
+
+.blockchainBoxTitle {
+    font-size: 3.5rem;
+    line-height: 3.5rem;
+    margin-bottom: 3rem
+}
+
+.blockchainBoxText {
+    font-size: 1.3rem
+}
+
+.blockchainBoxList {
+    margin-top: 3rem
+}
+
+.blockChainInfoText {
+    font-size: 1.5rem;
+    padding: 5rem 2rem 5rem 7rem
+}
+
+.blockchainBoxForm {
+    margin-top: 5rem;
+    margin-bottom: 4rem
+}
+
+.blockchainBoxForm input,
+.blockchainBoxForm select {
+    width: 100%;
+    padding: 1rem;
+    margin-top: 1.5rem;
+    border-radius: 5px;
+    outline: none;
+    border: none;
+    -webkit-appearance: none;
+}
+
+.blockchainBoxForm button {
+    width: 60%;
+    margin-left: 20%;
+    margin-top: 2rem;
+    padding: 0.8rem;
+    border-radius: 40px
+}
+
+.blockchainMembers {
+    text-align: center;
+    padding: 0 12%;
+    color: #0035da;
+    margin-bottom: 3rem
+}
+
+.blockchainMemberImage img {
+    width: 20%;
+    margin-top: 8rem
+}
+
+.blockchainMemberName {
+    padding: 1.5rem
+}
+
+.blockchainMemberIntro {
+    width: 80%;
+    margin-left: 10%;
+    font-size: 1.5rem
+}
+
+.workshopTopics {
+    background-image: url('img/blockchain/bottom.png');
+    background-size: cover;
+    padding: 8rem 15%;
+    color: white
+}
+
+.workshopYuraRight {
+    position: absolute;
+    width: 500px;
+    right: -320px;
+    margin-top: -400px
+}
+
+.workshopTopicsHead {
+    font-size: 3.5rem;
+    line-height: 3.5rem;
+}
+
+.workshopTopicsSubHead {
+    font-size: 1.7rem;
+    margin-bottom: 4rem
+}
+
+.workshopTopicsQuestion {
+    margin-top: 0.6rem
+}
+
+.requestPriceButton {
+    text-align: center;
+    padding: 4rem
+}
+
+.requestPriceButton button {
+    background-color: #0035da;
+    padding: 1rem 4rem;
+    color: white;
+    border-radius: 30px;
+    outline: none;
+    border: none;
+}
+
 @media (max-width:992px) {
     .navbar-collapse {
         margin-top: 2rem;
@@ -2162,5 +2290,115 @@ input {
     .caseLegend,
     .caseLegendValue {
         font-size: 1.8rem !important
+    }
+}
+
+@media(max-width:1240px) {
+    .blockchainHead {
+        padding-top: 3rem
+    }
+    .blockchainHeadBox {
+        position: absolute;
+        top: 8.5rem;
+        width: 40%;
+    }
+}
+
+@media(max-width:1140px) {
+    .blockchainHead {
+        padding-top: 2rem
+    }
+    .blockchainHeadBox {
+        position: absolute;
+        top: 7.5rem;
+        width: 40%;
+        margin-left: 50%
+    }
+    .workshopYuraRight {
+        width: 500px;
+        margin-top: -300px;
+        right: -350px
+    }
+    .blockchainBoxTitle {
+        font-size: 2.5rem
+    }
+}
+
+@media(max-width:900px) {
+    .blockchainHead {
+        padding-top: 4rem;
+    }
+    .blockchainTopImage {
+        position: absolute
+    }
+    .blockchainHeadBox {
+        position: relative;
+        top: 0;
+        width: 80%;
+        color: white;
+        margin-left: 10%;
+        margin-bottom: 2rem
+    }
+    .workshopYuraRight {
+        right: -250px;
+        width: 360px
+    }
+    .blockChainInfoText {
+        padding: 3rem;
+        text-align: justify
+    }
+    .navbar-nav a {
+        width: 100%
+    }
+}
+
+@media(max-width:500px) {
+    .blockchainHead {
+        padding-top: 2rem
+    }
+    .blockchainHeadBox {
+        padding: 2rem
+    }
+    .blockchainTopImage {
+        position: absolute
+    }
+    .blockchainBoxTitle {
+        font-size: 2rem;
+        line-height: 2.5rem
+    }
+    .blockchainBoxText {
+        font-size: 1.2rem
+    }
+    .blockchainBoxForm {
+        margin-top: 1rem
+    }
+    .blockchainBoxForm input,
+    .blockchainBoxForm select {
+        padding: 0.5rem
+    }
+    .blockchainBoxForm button {
+        width: 80%;
+        margin-left: 10%
+    }
+    .blockchainMemberIntro {
+        font-size: 1rem;
+        line-height: 1.5rem
+    }
+    .blockchainHeadBox {
+        position: relative;
+        top: 0;
+        width: 80%;
+        color: white;
+        margin-left: 10%;
+        margin-bottom: 2rem
+    }
+    .workshopYuraRight {
+        right: -220px;
+        width: 300px;
+        margin-top: -250px
+    }
+    .blockChainInfoText {
+        padding: 3rem;
+        text-align: justify
     }
 }
