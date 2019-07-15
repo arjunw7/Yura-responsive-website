@@ -70,12 +70,12 @@ class Blockchain extends React.Component {
                     <img src="../img/blockchain/Top.png" className="blockchainTopImage" ref=""/>
                     <div className="blockchainHeadBox">
                         <Text body="DO THE YURA TOKENCHECK" className="blockchainBoxTitle"/>
-                        <Text body="the workshop is designed for people who are actively considering to apply blockchain technology to improve their business. Industry experts will share the pitfalls and opportunities, in order for you to make quick and educated decisions." className="blockchainBoxText"/>
+                        <Text body="The workshop is designed for people who are actively considering to apply blockchain technology to improve their business. Industry experts will share the pitfalls and opportunities, in order for you to make quick and educated decisions." className="blockchainBoxText"/>
                         <div className="blockchainBoxList">
                             <Text body=">> Quickscan & pressure cooker style" className="blockchainBoxText"/>
                             <Text body=">> Fast answers to burning questions" className="blockchainBoxText"/>
                             <Text body=">> Alligned legal frameworks & tokenomics" className="blockchainBoxText"/>
-                            <Text body=">> Diirect access to our blockchain specialists" className="blockchainBoxText"/>      
+                            <Text body=">> Direct access to our blockchain specialists" className="blockchainBoxText"/>      
                         </div>
 
                         <div className="blockchainBoxForm" id="top">
@@ -85,7 +85,8 @@ class Blockchain extends React.Component {
                         <select value={this.state.location}  onChange={(val) => this.setState({location: val.target.value})}>
                             <option value="">Location</option>
                             <option value="Amsterdam">Amsterdam</option>
-                            <option value="Canggu">Canggu</option>
+                            <option value="Singapore">Singapore</option>
+                            <option value="Canggu">Canggu/Bali</option>
                         </select>
                         <button onClick={()=>this.submit()}> More info please! </button>
                         </div>
@@ -94,7 +95,7 @@ class Blockchain extends React.Component {
                 <div className="blockChainInfo">
                     <div className="row">
                         <div className="col-md-6 col-xs-12">
-                            <Text body="Blockchain technology can be applied in many diifferent industries and business domains. From tokenizing assets to the creation of a new digital economy. This is exactly one of the major challenges for many companies; where to start? Our battle tested team delivers expertise to help you accelerate. They rapidly facilitate your ways to bring your ideas to like" className="blockChainInfoText"/>
+                            <Text body="Blockchain technology can be applied in many different industries and business domains. From tokenizing assets to the creation of a new digital economy. This is exactly one of the major challenges for many companies; where to start? Our battle tested team delivers expertise to help you accelerate. They rapidly facilitate you ways to bring your ideas to life." className="blockChainInfoText"/>
                         </div>
                     </div>
                 </div>
@@ -103,17 +104,17 @@ class Blockchain extends React.Component {
                     <div className="row">
                         <div className="col-md-6">
                             <div className="blockchainMemberImage">
-                                <img src="../img/blockchain/jockem.png" alt=""/>
+                                <img src="../img/blockchain/Jockem.png" alt=""/>
                             </div>
                             <Text body="Jochem Verheul" className="blockchainMemberName"/>
-                            <Text body="Jochem has been a technology entrepreneur for the past 16 years. in 2009 he founded Itsavirus, a software and interaction design company with clients like Heiniken and Shell. Jochem created multiple successful ventures in the field of blockchain, AI and digital marketplace 2014. Jochem is an entrepreneur with a heart made of tech." className="blockchainMemberIntro"/>
+                            <Text body="Jochem has been a technology entrepreneur for the past 16 years. In 2009 he founded Itsavirus, a software and interaction design company with clients like Heineken and Shell. Jochem created multiple successful ventures in the field of blockchain, AI and digital marketplace. Jochem is an entrepreneur with a heart made of tech." className="blockchainMemberIntro"/>
                         </div>
                         <div className="col-md-6">
                             <div className="blockchainMemberImage">
-                                <img src="../img/blockchain/dennis.png" alt=""/>
+                                <img src="../img/blockchain/Dennis.png" alt=""/>
                             </div>
                             <Text body="Dennis Roelofsen" className="blockchainMemberName"/>
-                            <Text body="Dennis co-founded his first digital agency Momkai in 2002 and moved on to solve strategy and design challenges for companies in Europe and China. Later he founded Yura Agency with a sole focus on helping technologies companies to thrive and reach clarity. Denniis fulfills the role of strategist and moderator during workshops." className="blockchainMemberIntro"/>
+                            <Text body="Dennis co-founded his first digital agency Momkai in 2002 and moved on to solve strategy and design challenges for companies in Europe and China. Later he founded Yura Agency with a sole focus on helping technologies companies to thrive and reach clarity. Dennis fulfills the role of strategist and moderator during workshops." className="blockchainMemberIntro"/>
                         </div>
                     </div>
                 </div>
@@ -139,15 +140,14 @@ class Blockchain extends React.Component {
                             <Text body="How might we structure our tokensale?" className="workshopTopicsQuestion"/>
                             <Text body="What is the best strategy to have a successful private sale and how do we handle investor relations in the blockchain space?" className="workshopTopicsQuestion"/>
                             <Text body="How do we choose our soft and hard cap?" className="workshopTopicsQuestion"/>  
-                            <Text body="What documents do I need to start tokensale?" className="workshopTopicsQuestion"/>   
-                            <Text body="What information does my whitepaper need to contain?" className="workshopTopicsQuestion"/>                      
+                            <Text body="What documents do I need to start tokensale?" className="workshopTopicsQuestion"/>                    
                         </div>
                     </div>
                 </div>
 
                 <a href="#top">
                 <div className="requestPriceButton">
-                    <button>Request Price</button>
+                <button className="contactButton">Request Price&nbsp;<i className="fa fa-angle-right" aria-hidden="true" ></i></button>
                 </div>
                 </a>
                 <Footer/>

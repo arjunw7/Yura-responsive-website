@@ -14,7 +14,8 @@ class NotFound extends React.Component {
 
     render() { 
         return(
-            <div>
+            <div className="notFoundText">
+                Uh Oh?<br/>
                 404 - Not Found
             </div>
         )

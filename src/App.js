@@ -31,7 +31,7 @@ class App extends Component {
             <Route exact path="/2" component={CaseDetails2} />
             <Route exact path="/3" component={CaseDetails3} />
             <Route exact path="/4" component={CaseDetails4} />
-            <Route exact path="/blockchain" component={Blockchain} />
+            <Route exact path="/workshop" component={Blockchain} />
             <Route component={NotFound} />
           </Switch>
         </div>

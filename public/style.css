@@ -20,6 +20,13 @@
     z-index: -1;
 }
 
+.notFoundText {
+    padding: 4rem 8%;
+    font-size: 4rem;
+    color: silver;
+    margin-top: 10rem
+}
+
 .legendData a {
     text-decoration: none;
     color: #0528e1
@@ -1259,21 +1266,42 @@ input {
 
 .blockchainBoxForm input,
 .blockchainBoxForm select {
+    background-color: #f3f3f3;
+    border: none;
+    padding: 0.3rem 0.5rem;
+    font-size: 1.3rem;
+    font-family: "Apercu-Light", Helvetica, Arial, serif;
     width: 100%;
-    padding: 1rem;
+    padding: 0.5rem;
     margin-top: 1.5rem;
-    border-radius: 5px;
+    border-radius: 3px;
     outline: none;
     border: none;
     -webkit-appearance: none;
+    margin-top: 2rem
 }
 
 .blockchainBoxForm button {
     width: 60%;
     margin-left: 20%;
     margin-top: 2rem;
-    padding: 0.8rem;
-    border-radius: 40px
+    color: #0133d9;
+    font-size: 1.1rem;
+    padding: 0.7rem 3rem;
+    border-radius: 30px;
+    transition: 0.3s;
+    border: 1px solid #0133d9;
+}
+
+.blockchainBoxForm button:hover {
+    color: white;
+    font-size: 1.1rem;
+    padding: 0.7rem 3rem;
+    border-radius: 30px;
+    transition: 0.3s;
+    background-color: #0133d9;
+    border: 1px solid white;
+    cursor: pointer
 }
 
 .blockchainMembers {
@@ -1301,7 +1329,7 @@ input {
 .workshopTopics {
     background-image: url('img/blockchain/bottom.png');
     background-size: cover;
-    padding: 8rem 15%;
+    padding: 10rem 15%;
     color: white
 }
 
@@ -1332,12 +1360,12 @@ input {
 }
 
 .requestPriceButton button {
-    background-color: #0035da;
-    padding: 1rem 4rem;
-    color: white;
-    border-radius: 30px;
-    outline: none;
-    border: none;
+    /* background-color: #0035da; */
+    /* padding: 1rem 4rem; */
+    /* color: white; */
+    /* border-radius: 30px; */
+    /* outline: none; */
+    /* border: none; */
 }
 
 @media (max-width:992px) {
