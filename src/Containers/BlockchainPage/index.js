@@ -67,7 +67,7 @@ class Blockchain extends React.Component {
                     <img src="../img/blockchain/blockchain_back.png" alt=""/> 
                 </div> */}
                 <div className="blockchainHead">
-                    <img src="../img/blockchain/top.png" className="blockchainTopImage" ref=""/>
+                    <img src="../img/blockchain/Top.png" className="blockchainTopImage" ref=""/>
                     <div className="blockchainHeadBox">
                         <Text body="DO THE YURA TOKENCHECK" className="blockchainBoxTitle"/>
                         <Text body="the workshop is designed for people who are actively considering to apply blockchain technology to improve their business. Industry experts will share the pitfalls and opportunities, in order for you to make quick and educated decisions." className="blockchainBoxText"/>
