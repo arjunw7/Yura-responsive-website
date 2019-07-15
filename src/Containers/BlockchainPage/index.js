@@ -127,7 +127,7 @@ class Blockchain extends React.Component {
                         <div className="col-md-4">
                             <Text body="What kind of tokenomics would fit my situation?" className="workshopTopicsQuestion"/>
                             <Text body="How do I choose a strategic market position using good tokenomics and legal structures?" className="workshopTopicsQuestion"/>
-                            <Text body="Are blockchain and tokenization of(part of) my business good solutions to explore?" className="workshopTopicsQuestion"/>  
+                            <Text body="Are blockchain and tokenization of (part of) my business good solutions to explore?" className="workshopTopicsQuestion"/>  
                             <Text body="How would my business model change?" className="workshopTopicsQuestion"/>                      
                         </div>
                         <div className="col-md-4">
@@ -146,9 +146,7 @@ class Blockchain extends React.Component {
                 </div>
 
                 <a href="#top">
-                <div className="requestPriceButton">
                 <button className="contactButton">Request Price&nbsp;<i className="fa fa-angle-right" aria-hidden="true" ></i></button>
-                </div>
                 </a>
                 <Footer/>
             </div>
