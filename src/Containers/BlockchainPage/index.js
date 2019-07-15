@@ -103,14 +103,14 @@ class Blockchain extends React.Component {
                     <div className="row">
                         <div className="col-md-6">
                             <div className="blockchainMemberImage">
-                                <img src="../img/blockchain/Jockem.png" alt=""/>
+                                <img src="../img/blockchain/jockem.png" alt=""/>
                             </div>
                             <Text body="Jochem Verheul" className="blockchainMemberName"/>
                             <Text body="Jochem has been a technology entrepreneur for the past 16 years. in 2009 he founded Itsavirus, a software and interaction design company with clients like Heiniken and Shell. Jochem created multiple successful ventures in the field of blockchain, AI and digital marketplace 2014. Jochem is an entrepreneur with a heart made of tech." className="blockchainMemberIntro"/>
                         </div>
                         <div className="col-md-6">
                             <div className="blockchainMemberImage">
-                                <img src="../img/blockchain/Dennis.png" alt=""/>
+                                <img src="../img/blockchain/dennis.png" alt=""/>
                             </div>
                             <Text body="Dennis Roelofsen" className="blockchainMemberName"/>
                             <Text body="Dennis co-founded his first digital agency Momkai in 2002 and moved on to solve strategy and design challenges for companies in Europe and China. Later he founded Yura Agency with a sole focus on helping technologies companies to thrive and reach clarity. Denniis fulfills the role of strategist and moderator during workshops." className="blockchainMemberIntro"/>
