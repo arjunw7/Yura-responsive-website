@@ -34,7 +34,6 @@ class Blockchain extends React.Component {
             alert("Please enter all the fields.")
         }
         else if (/^\w+([\.-]?\w+)*@\w+([\.-]?\w+)*(\.\w{2,3})+$/.test(body.email)){
-            if((body.phone.match(/^\d{10}$/))){
                 axios.post("https://yura-mail-service.herokuapp.com/blockchainQuery",body).then(res => {
                     if(res.status==200){
                         alert("Your message has been sent to Dennis!")
@@ -48,11 +47,7 @@ class Blockchain extends React.Component {
                 })
                 .catch(err =>{
                     alert(err)
-                }) 
-            }
-            else{
-                alert("Please enter a valid contact number.")
-            }
+                })
         }
         else{
              alert("Please enter a valid email address.")
