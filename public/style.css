@@ -1356,16 +1356,7 @@ input {
 
 .requestPriceButton {
     text-align: center;
-    padding: 4rem
-}
-
-.requestPriceButton button {
-    /* background-color: #0035da; */
-    /* padding: 1rem 4rem; */
-    /* color: white; */
-    /* border-radius: 30px; */
-    /* outline: none; */
-    /* border: none; */
+    padding: 2rem 2rem 4rem 2rem
 }
 
 @media (max-width:992px) {

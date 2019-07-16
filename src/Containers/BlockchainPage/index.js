@@ -144,10 +144,11 @@ class Blockchain extends React.Component {
                         </div>
                     </div>
                 </div>
-
-                <a href="#top">
-                <button className="contactButton">Request Price&nbsp;<i className="fa fa-angle-right" aria-hidden="true" ></i></button>
-                </a>
+                <div className="requestPriceButton">
+                    <a href="#top">
+                        <button className="contactButton">Request Price&nbsp;<i className="fa fa-angle-right" aria-hidden="true" ></i></button>
+                    </a>
+                </div>
                 <Footer/>
             </div>
         )
