@@ -83,7 +83,11 @@ class Blockchain extends React.Component {
                             <option value="Singapore">Singapore</option>
                             <option value="Canggu">Canggu/Bali</option>
                         </select>
-                        <button onClick={()=>this.submit()}> More info please! </button>
+                        <a onClick={()=>this.submit()}>
+                            <div className="blockchainInfoButton">
+                                    More Info!
+                            </div>
+                        </a>
                         </div>
                     </div>
                 </div>

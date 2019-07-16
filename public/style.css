@@ -1285,17 +1285,21 @@ input {
     text-align: center
 }
 
-.blockchainBoxForm button {
+.blockchainInfoButton {
     margin-top: 2rem;
-    color: #0133d9;
+    color: #0633d9;
+    max-width: 60%;
+    margin-left: 20%;
     font-size: 1.1rem;
     padding: 0.7rem 3rem;
     border-radius: 30px;
     transition: 0.3s;
     border: 1px solid #0133d9;
+    background-color: white;
+    cursor: pointer
 }
 
-.blockchainBoxForm button:hover {
+.blockchainInfoButton:hover {
     color: white;
     font-size: 1.1rem;
     padding: 0.7rem 3rem;
@@ -2343,6 +2347,10 @@ input {
     }
     .blockchainBoxTitle {
         font-size: 2.5rem
+    }
+    .blockchainInfoButton {
+        max-width: 80%;
+        margin-left: 10%;
     }
 }
 
