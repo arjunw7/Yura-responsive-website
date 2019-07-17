@@ -3,6 +3,7 @@ import Text from '../../Components/Text';
 import Footer from '../../Components/Footer';
 import WOW from "wowjs";
 import axios from 'axios';
+import { HashLink as Link } from 'react-router-hash-link';
 
 class Blockchain extends React.Component {
 
@@ -144,9 +145,9 @@ class Blockchain extends React.Component {
                     </div>
                 </div>
                 <div className="requestPriceButton">
-                    <a href="#top">
+                    <Link to="workshop#top">
                         <button className="contactButton">Request Price&nbsp;<i className="fa fa-angle-right" aria-hidden="true" ></i></button>
-                    </a>
+                    </Link>
                 </div>
                 <Footer/>
             </div>

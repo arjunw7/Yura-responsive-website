@@ -57,11 +57,12 @@ class HomeMainSections extends React.Component {
                         </div>
                         <div className="col-md-3 col-12">
                             <div className="row">
+                            
                                 <div className="col-md-12 col-12 wow fadeInUp homePageSection">
-                                <Link to="//www.linkedin.com/company/28986347/" target="blank">
+                                <a href="https://www.linkedin.com/company/28986347/" target="_blank">
                                     <Text body="News" className="sectionTitleText"/>
                                     <Image file="yura---desktop-1920px-news.png" className="sectionImage"/>
-                                </Link>
+                                </a>
                                 </div>
                                 <div className="col-md-12 col-12 wow fadeInUp homePageSection">
                                 <Link to="team">
